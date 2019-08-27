@@ -32,6 +32,8 @@ namespace _0604A1Lottozahlen
                 }
             } while (anzahl < 6);
 
+            Array.Sort(zahlen);
+
             foreach (int a in zahlen)
                 Console.Write("{0} ", a);
 
